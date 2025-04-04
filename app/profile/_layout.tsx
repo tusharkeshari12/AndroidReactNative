@@ -1,5 +1,5 @@
 import { Stack } from 'expo-router';
-import { theme } from '../../theme';
+import { theme } from '../theme';
 
 export default function ProfileLayout() {
   return (

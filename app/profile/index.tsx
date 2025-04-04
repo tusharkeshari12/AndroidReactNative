@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 import { Text, Avatar, ListItem } from '@rneui/themed';
 import { useRouter } from 'expo-router';
-import { theme } from '../../theme';
+import { theme } from '../theme';
 
 export default function ProfileScreen() {
   const router = useRouter();

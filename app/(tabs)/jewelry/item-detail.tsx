@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import { Text, Image, Card } from '@rneui/themed';
 import { useLocalSearchParams } from 'expo-router';
-import { JEWELRY_DATA } from './jewelry';
+import { JEWELRY_DATA } from '.';
 
 export default function JewelryDetailScreen() {
   const { id, category } = useLocalSearchParams<{ id: string; category: string }>();

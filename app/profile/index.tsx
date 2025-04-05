@@ -27,7 +27,7 @@ export default function ProfileScreen() {
       <View style={styles.section}>
         <ListItem 
           bottomDivider 
-          onPress={() => navigateTo('/(tabs)/profile/edit-profile')}
+          onPress={() => navigateTo('./edit-profile')}
           containerStyle={styles.listItem}
         >
           <ListItem.Content>
@@ -37,7 +37,7 @@ export default function ProfileScreen() {
         </ListItem>
         <ListItem 
           bottomDivider 
-          onPress={() => navigateTo('/(tabs)/profile/orders')}
+          onPress={() => navigateTo('./orders')}
           containerStyle={styles.listItem}
         >
           <ListItem.Content>
@@ -47,11 +47,21 @@ export default function ProfileScreen() {
         </ListItem>
         <ListItem 
           bottomDivider 
-          onPress={() => navigateTo('/(tabs)/profile/settings')}
+          onPress={() => navigateTo('../profile/settings')}
           containerStyle={styles.listItem}
         >
           <ListItem.Content>
             <ListItem.Title style={styles.listItemTitle}>Settings</ListItem.Title>
+          </ListItem.Content>
+          <ListItem.Chevron color={theme.colors.text.primary} />
+        </ListItem>
+        <ListItem 
+          bottomDivider 
+          onPress={() => navigateTo('../profile/wishlist')}
+          containerStyle={styles.listItem}
+        >
+          <ListItem.Content>
+            <ListItem.Title style={styles.listItemTitle}>Wishlist</ListItem.Title>
           </ListItem.Content>
           <ListItem.Chevron color={theme.colors.text.primary} />
         </ListItem>

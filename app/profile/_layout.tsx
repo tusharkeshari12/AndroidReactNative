@@ -14,6 +14,7 @@ export default function ProfileLayout() {
         name="edit-profile"
         options={{
           title: 'Edit Profile',
+          headerShown: false,
           presentation: 'card',
           ...theme.header,
         }}
@@ -22,6 +23,7 @@ export default function ProfileLayout() {
         name="settings"
         options={{
           title: 'Settings',
+          headerShown: false,
           presentation: 'card',
           ...theme.header,
         }}
@@ -30,6 +32,7 @@ export default function ProfileLayout() {
         name="orders"
         options={{
           title: 'My Orders',
+          headerShown: false,
           presentation: 'card',
           ...theme.header,
         }}
@@ -38,6 +41,7 @@ export default function ProfileLayout() {
         name="wishlist"
         options={{
           title: 'Wishlist',
+          headerShown: false,
           presentation: 'card',
           ...theme.header,
         }}
